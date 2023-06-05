@@ -1,0 +1,17 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+.title-container {
+    background:black;
+    color:white;
+    height:70px;
+    line-height: 70px;
+    font-size: 45px !important;
+    padding-left: 30px;
+}
+
+.container {
+    padding:20px 40px;
+}

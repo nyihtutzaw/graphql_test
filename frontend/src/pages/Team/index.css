@@ -1,0 +1,38 @@
+.team-wrapper {
+    padding:20px;
+}
+
+.team-wrapper table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+.team-wrapper table td {
+    border: 1px solid black;
+    padding:10px 0px;
+}
+.team-wrapper table th {
+    font-size: 20px;
+    background: black;
+    color: white;
+    padding:10px 0px;
+}
+
+.team-wrapper table td  {
+    text-align: center;
+}
+
+.team-wrapper table td img {
+    width:50px;
+    height:50px;
+}
+
+.team-wrapper table td button {
+    padding:10px;
+    background:steelblue;
+    color:white;
+    width: 100px;
+    font-size: 16px;
+    border:none;
+    cursor: pointer;
+}

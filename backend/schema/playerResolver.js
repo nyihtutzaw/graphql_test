@@ -45,7 +45,7 @@ const playerResolvers = {
           throw new Error('Player with the same kit number already exists');
         }
     
-        const player = await Player.create({ name, position, kitNumber: kit,image, teamId });
+        const player = await Player.create({ name, position, kit: kit,image, teamId });
     
         return player;
       } catch (error) {

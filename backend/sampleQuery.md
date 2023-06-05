@@ -26,6 +26,10 @@ query {
         id
         name
         logo
+        players {
+          name
+          kit
+        }
     }
 }
 
