@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+
+# Compiled output
+dist/
+build/
+
+# Environment variables
+.env
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and debugging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+*.log
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# macOS folder attributes
+.DS_Store
